@@ -38,4 +38,4 @@ with col4:
         st.title(data['title'][i])
         st.image(f"images/{data['image'][i]}")
         st.info(data['description'][i])
-        st.write("[Source Code](https://pythonhow.com)")
+        st.write(f"[Source Code]({data['url'][i]})")
